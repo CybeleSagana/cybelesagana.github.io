@@ -20,14 +20,22 @@
 	</script>
 
 </head>
-<h1> Log 1:
+<h1> Log 1: </h1>
     <h2>What is the difference between non-semantic and semantic tags in HTML?</h2>
         <p>
-                Non-semantic tags (< div >, < span >) are like plain boxes where you do not know what is inside.
+                NNon-semantic tags, such as < div > and < span >, are generic containers that do not provide any information about their content. 
+                They are like plain boxes where you can put anything inside, but someone reading the code or a search engine looking at your page 
+                would not know what the content represents. 
+                For example, a < div > could contain a header, a paragraph, or a navigation menu, but its tag itself doesn not 
+                communicate that meaning.  
                 <br>
-                Whereas semantic tags (< header >, < footer >, < article >) are labeled boxes. They tell you what is inside, which helps browsers, developers, and search engines.
+                Semantic tags, on the other hand, have meaningful names that describe the purpose of the content inside. 
+                Examples include < header >, < footer >, < article >, < section >, and < nav >.
+                Using semantic tags tells browsers, developers, and search engines exactly what type of content is contained in that element. 
+                For instance, a < header > clearly indicates introductory content, and an < article > indicates a self-contained piece of content. 
+                This clarity improves accessibility, search engine optimization, and makes the code easier to understand and maintain.
         </p>
-    <h2> What are two (or more) benefits of using semantic tags?</h2>
+    <h2>What are two (or more) benefits of using semantic tags?</h2>
         <p>
             <h3> Benefits of Semantic HTML</h3>
             <ol>
@@ -36,6 +44,5 @@
                 <li>Easier to maintain: Organizes your code so you or other developers can read and update it easily.</li>
             </ol>
         </p>
-</h1>
 </html>
 
