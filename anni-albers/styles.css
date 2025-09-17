@@ -12,5 +12,10 @@ p {
 
 p.callout {
     font-size: 2rem;
+    line-height: 3rem;
     font-style: italic;
+}
+
+#row2 p {
+margin-left: calc(100/6);
 }
