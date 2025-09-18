@@ -96,10 +96,10 @@ p.callout {
 }
 
 /* CSS for index2 */
-#secondLayout {
+#secondLayout main {
     display: grid;
     grid-template-columns: repeat(6, 1fr); 
-    grid-template-rows: 100vh repeat(10, auto);            
+    grid-template-rows: auto;            
     gap: 1rem;                             
     grid-template-areas: 
     'title title title title title title'
@@ -113,8 +113,7 @@ p.callout {
     'p8 . . . . .'
     '. . p9 . . .'
     '. . . p10 p10 .'
-    '. p11 . . .c4';
-}
+    '. p11 . . .c4';}
 
 #secondLayout #titleRow { grid-area: title; }
 
