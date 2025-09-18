@@ -99,7 +99,7 @@ p.callout {
 #secondLayout {
     display: grid;
     grid-template-columns: repeat(6, 1fr); 
-    grid-template-rows: auto;            
+    grid-template-rows: 100vh repeat(10, auto);            
     gap: 1rem;                             
     grid-template-areas: 
     'title title title title title title'
@@ -138,4 +138,8 @@ p.callout {
 
 #secondLayout p {
     width: 100%;
+}
+
+#secondLayout #callout1 {
+    padding-left: 0;
 }
