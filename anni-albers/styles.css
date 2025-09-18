@@ -96,7 +96,7 @@ p.callout {
 }
 
 /* CSS for index2 */
-body#secondLayout {
+#secondLayout {
     display: grid;
     grid-template-columns: repeat (6, auto);
     grid-template-rows: repeat (12, auto);
