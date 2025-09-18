@@ -25,7 +25,7 @@ h2 {
 p {
     font-size: 1rem;
     line-height: 0.9rem;
-    width: 60%;
+    width: 90%;
 }
 
 p.callout {
@@ -141,4 +141,8 @@ p.callout {
 
 #secondLayout #callout1 {
     padding-left: 0;
+}
+
+#secondLayout p {
+    margin: 0 auto;
 }
