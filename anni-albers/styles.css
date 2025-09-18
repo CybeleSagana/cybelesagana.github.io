@@ -1,4 +1,4 @@
-/* Layout 1 with 6-column grid */
+/* Layout 1 - index1 */
 
 main {
     width: 75%;
@@ -72,7 +72,18 @@ h3 {
 }
 
 
+
+
+
+
+
+
+
+/*///////////////////////*/
 /* CSS for index2 */
+/*///////////////////////*/
+
+
 #secondLayout main {
    display: grid;
     grid-template-columns: repeat(6, 1fr);
