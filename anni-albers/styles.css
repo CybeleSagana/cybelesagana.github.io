@@ -1,76 +1,99 @@
-/* Layout 1 Grid CSS */
-#layout1 {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 1rem;
+main {
+    width: 75%;
     max-width: 1100px;
     margin: auto;
-    padding: 2rem 1rem;
 }
 
-#title {
-    grid-column: 2 / span 4;
-    text-align: center;
+h1 {
     font-size: 3rem;
     line-height: 3.5rem;
-    margin-bottom: 0.5rem;
+    margin: 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
 }
 
-#subtitle {
-    grid-column: 2 / span 4;
-    text-align: center;
+h2 {
     font-size: 2rem;
     line-height: 2.5rem;
-    margin-bottom: 2rem;
-}
-
-#para1 { grid-column: 2 / span 4; }
-#para2 { grid-column: 2 / span 3; }
-#para3 { grid-column: 1 / span 3; }
-#para4 { grid-column: 2 / span 3; }
-#para5 { grid-column: 2 / span 4; }
-#para6 { grid-column: 2 / span 3; }
-#para7 { grid-column: 4 / span 3; }
-#para8 { grid-column: 1 / span 4; }
-#paraAuthor1 { grid-column: 2 / span 4; }
-#paraAuthor2 { grid-column: 2 / span 4; }
-
-.callout {
-    grid-column: 4 / span 2;
-    max-width: 20ch;
-    text-align: right;
-    font-style: italic;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    margin: 1rem 0;
-    font-weight: 600;
-}
-
-/* Specific callout positions */
-#callout1 { grid-column: 4 / span 2; }
-#callout2 { grid-column: 4 / span 2; }
-#callout3 { grid-column: 4 / span 2; }
-#callout4 { grid-column: 4 / span 2; }
-
-#authorTitle {
-    grid-column: 2 / span 4;
-    font-size: 1.5rem;
-    line-height: 2rem;
     margin: 2rem 0 1rem;
-    text-align: left;
-}
-
-p {
-    margin: 0 auto 1rem;
-    line-height: 1.5rem;
-    width: 100%;
-}
-
-h1, h2, h3 {
+    width: 80%;
+    margin-left: calc(100% * 1 / 6);
     letter-spacing: 0.03em;
 }
 
+p {
+    font-size: 1rem;
+    line-height: 0.9rem;
+    width: 90%;
+}
 
+p.callout {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-style: italic;
+    text-align: right;
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+    float: none;
+}
+
+/* Row 1 through Row 14 */
+#row1 p {
+    margin-left: calc(100% * 1 / 6);
+}
+
+#row2 p {
+    margin-left: calc(100% * 2 / 6);
+}
+
+#row3 p {
+    margin-left: calc(100% * 3 / 6);
+}
+
+#row4 p {
+    margin-left: calc(100% * 4 / 6);
+}
+
+#row5 p {
+    margin-left: calc(100% * 5 / 6);
+}
+
+#row6 p {
+    margin-right: calc(100% * 1 / 6);
+}
+
+#row7 p {
+    margin-right: calc(100% * 2 / 6);
+}
+
+#row8 p {
+    margin-right: calc(100% * 3 / 6);
+}
+
+#row9 p {
+    margin-right: calc(100% * 4 / 6);
+}
+
+#row10 p {
+    margin-right: calc(100% * 5 / 6);
+}
+
+#row11 p {
+    margin-left: calc(100% * 0.5 / 6);
+}
+
+#row12 p {
+    margin-left: calc(100% * 1.5 / 6);
+}
+
+#row13 p {
+    margin-right: calc(100% * 1.5 / 6);
+}
+
+#row14 p {
+    margin-left: calc(100% * 2.5 / 6);
+}
 
 /* CSS for index2 */
 #secondLayout main {
@@ -198,5 +221,5 @@ h3 {
     line-height: 2.6rem;
     text-align: right;     
     margin: 0.5rem 0;
-    font-weight: 600;
+    font-weight: ;
 }
