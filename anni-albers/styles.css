@@ -221,3 +221,13 @@ h3 {
     font-size: 1.2rem;
     margin: 0.5rem 0;
 }
+
+#secondLayout p.callout {
+    grid-column: auto;     
+    width: auto;         
+    max-width: 14ch;       
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: right;     
+    margin: 0.5rem 0;
+}
