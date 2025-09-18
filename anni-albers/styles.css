@@ -98,8 +98,7 @@ p.callout {
 /* CSS for index2 */
 #secondLayout main {
     display: grid;
-    grid-template-columns: repeat(6, calc(100% / 6)); 
-    grid-template-rows: auto;            
+    grid-template-columns: repeat(6, 1fr);          
     gap: 1rem;                             
     grid-template-areas: 
     'title title title title title title'
@@ -115,7 +114,10 @@ p.callout {
     '. . . p10 p10 .'
     '. p11 . . .c4';}
 
-#secondLayout #titleRow { grid-area: title; }
+#secondLayout #titleRow { grid-area: title;
+    grid-column: 1 / span 6; 
+    text-align: center;    
+}
 
 #secondLayout #para1 { grid-area: p1 ;}
 #secondLayout #para2 { grid-area: p2 ;}
@@ -150,4 +152,13 @@ p.callout {
 #secondLayout p {
   width: 100%;    
   margin: 0; 
+}
+
+#secondLayout h1 {
+    margin: 1.5rem 0 0.5rem;
+}
+
+#secondLayout h2 {
+    margin: 0 auto 2rem;
+    width: 80%;
 }
