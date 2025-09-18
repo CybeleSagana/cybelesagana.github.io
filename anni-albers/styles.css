@@ -118,7 +118,7 @@ p.callout {
 
 #secondLayout #titleRow {
     grid-area: title;
-    grid-column: 1 / span 6;
+    grid-column: 2 / span 4;
     text-align: center;
 }
 
