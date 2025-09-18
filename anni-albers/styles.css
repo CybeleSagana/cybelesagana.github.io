@@ -97,12 +97,12 @@ p.callout {
 
 /* CSS for index2 */
 #secondLayout main {
-    display: grid;
+   display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
-    padding: 2rem;      
-    max-width: 1100px;  
-    margin: 0 auto;     
+    max-width: 1100px;
+    margin: 2rem auto;   
+    padding: 1.5rem;
     grid-template-areas:
         'title title title title title title'
         '. p1 p1 . . .'
