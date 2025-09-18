@@ -215,9 +215,11 @@ h3 {
 #secondLayout p.callout {
     grid-column: auto;     
     width: auto;         
-    max-width: 14ch;       
+    max-width: 20ch;       
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
     text-align: right;     
     margin: 0.5rem 0;
+    font-weight: 600;
 }
