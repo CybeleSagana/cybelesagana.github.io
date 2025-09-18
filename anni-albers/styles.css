@@ -98,8 +98,8 @@ p.callout {
 /* CSS for index2 */
 #secondLayout {
     display: grid;
-    grid-template-columns: repeat (6, auto);
-    grid-template-rows: repeat (12, auto);
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(12, auto);
     grid-template-areas: 
     'title title title title title title'
     '. p1 p1 . . .'
@@ -135,6 +135,6 @@ p.callout {
 #secondLayout #callout3 { grid-area: c3 ;}
 #secondLayout #callout4 { grid-area: c4 ;}
 
-#sexondLayout p {
+#secondLayout p {
     width: 100%;
 }
