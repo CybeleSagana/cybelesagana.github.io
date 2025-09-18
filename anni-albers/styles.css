@@ -32,7 +32,6 @@ p.callout {
     font-size: 1.5rem;
     line-height: 2rem;
     font-style: italic;
-    float: right;
     text-align: right;
     padding-left: 1.5em;
     margin-top: 0.5em;
@@ -197,13 +196,16 @@ p.callout {
 
 #secondLayout p {
     margin: 0 auto;
-}
-
-#secondLayout p {
     width: 100%;
-    margin: 0;
 }
 
 .container {
   justify-content: center;    
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1.5rem 0 1rem;
+    letter-spacing: 0.02em;
 }
