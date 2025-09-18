@@ -112,7 +112,8 @@ p.callout {
         'p8 . . . . .'
         '. . p9 . . .'
         '. . . p10 p10 .'
-        '. p11 . . .c4';
+        '. p11 . . .c4'
+        '. p12 . . . .';
 }
 
 #secondLayout #titleRow {
@@ -163,6 +164,10 @@ p.callout {
 
 #secondLayout #para11 {
     grid-area: p11;
+}
+
+#secondLayout #para12 {
+    grid-area: p12;
 }
 
 
