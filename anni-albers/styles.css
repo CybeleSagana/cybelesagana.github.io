@@ -8,18 +8,18 @@ h1 {
     font-size: 3rem;
     line-height: 3.5rem;
     margin: 1.5rem 0;
-    width: 100%;              
-    text-align: center;       
-    letter-spacing: 0.05em;  
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
 }
 
 h2 {
     font-size: 2rem;
     line-height: 2.5rem;
     margin: 2rem 0 1rem;
-    width: 80%;                               
-    margin-left: calc(100% * 1 / 6);          
-    letter-spacing: 0.03em;                   
+    width: 80%;
+    margin-left: calc(100% * 1 / 6);
+    letter-spacing: 0.03em;
 }
 
 p {
@@ -29,13 +29,13 @@ p {
 }
 
 p.callout {
-    font-size: 1.5rem;     
-    line-height: 2rem;     
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-style: italic;
     float: right;
     text-align: right;
-    padding-left: 1.5em;   
-    margin-top: 0.5em;     
+    padding-left: 1.5em;
+    margin-top: 0.5em;
 }
 
 /* Row 1 through Row 14 */
@@ -98,44 +98,89 @@ p.callout {
 /* CSS for index2 */
 #secondLayout main {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);          
-    gap: 1rem;                             
-    grid-template-areas: 
-    'title title title title title title'
-    '. p1 p1 . . .'
-    '. . p2 p2 p2 c1'
-    'p3 . . . . .'
-    '. p4  p4 . . c2'
-    '. p5 . . . .'
-    '. p6 p6 . c3 .'
-    '. . . p7 . .'
-    'p8 . . . . .'
-    '. . p9 . . .'
-    '. . . p10 p10 .'
-    '. p11 . . .c4';}
-
-#secondLayout #titleRow { grid-area: title;
-    grid-column: 1 / span 6; 
-    text-align: center;    
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    grid-template-areas:
+        'title title title title title title'
+        '. p1 p1 . . .'
+        '. . p2 p2 p2 c1'
+        'p3 . . . . .'
+        '. p4  p4 . . c2'
+        '. p5 . . . .'
+        '. p6 p6 . c3 .'
+        '. . . p7 . .'
+        'p8 . . . . .'
+        '. . p9 . . .'
+        '. . . p10 p10 .'
+        '. p11 . . .c4';
 }
 
-#secondLayout #para1 { grid-area: p1 ;}
-#secondLayout #para2 { grid-area: p2 ;}
-#secondLayout #para3 { grid-area: p3 ;}
-#secondLayout #para4 { grid-area: p4 ;}
-#secondLayout #para5 { grid-area: p5 ;}
-#secondLayout #para6 { grid-area: p6 ;}
-#secondLayout #para7 { grid-area: p7 ;}
-#secondLayout #para8 { grid-area: p8 ;}
-#secondLayout #para9 { grid-area: p9 ;}
-#secondLayout #para10 { grid-area: p10 ;}
-#secondLayout #para11 { grid-area: p11 ;}
+#secondLayout #titleRow {
+    grid-area: title;
+    grid-column: 1 / span 6;
+    text-align: center;
+}
+
+#secondLayout #para1 {
+    grid-area: p1;
+}
+
+#secondLayout #para2 {
+    grid-area: p2;
+}
+
+#secondLayout #para3 {
+    grid-area: p3;
+}
+
+#secondLayout #para4 {
+    grid-area: p4;
+}
+
+#secondLayout #para5 {
+    grid-area: p5;
+}
+
+#secondLayout #para6 {
+    grid-area: p6;
+}
+
+#secondLayout #para7 {
+    grid-area: p7;
+}
+
+#secondLayout #para8 {
+    grid-area: p8;
+}
+
+#secondLayout #para9 {
+    grid-area: p9;
+}
+
+#secondLayout #para10 {
+    grid-area: p10;
+}
+
+#secondLayout #para11 {
+    grid-area: p11;
+}
 
 
-#secondLayout #callout1 { grid-area: c1 ;}
-#secondLayout #callout2 { grid-area: c2 ;}
-#secondLayout #callout3 { grid-area: c3 ;}
-#secondLayout #callout4 { grid-area: c4 ;}
+#secondLayout #callout1 {
+    grid-area: c1;
+}
+
+#secondLayout #callout2 {
+    grid-area: c2;
+}
+
+#secondLayout #callout3 {
+    grid-area: c3;
+}
+
+#secondLayout #callout4 {
+    grid-area: c4;
+}
 
 #secondLayout p {
     width: 100%;
@@ -150,15 +195,10 @@ p.callout {
 }
 
 #secondLayout p {
-  width: 100%;    
-  margin: 0; 
+    width: 100%;
+    margin: 0;
 }
 
-#secondLayout h1 {
-    margin: 1.5rem 0 0.5rem;
-}
-
-#secondLayout h2 {
-    margin: 0 auto 2rem;
-    width: 80%;
+.container {
+  justify-content: center;    
 }
