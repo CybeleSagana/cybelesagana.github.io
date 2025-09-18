@@ -215,9 +215,9 @@ h3 {
 #secondLayout #callout2,
 #secondLayout #callout3,
 #secondLayout #callout4 {
-    grid-column: 2 / 6;   /
+    grid-column: 3;   /
     text-align: center;   
-    font-style: italic;
-    font-size: 1.5rem;
-    margin: 1rem 0;
+    font-style: left;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
 }
