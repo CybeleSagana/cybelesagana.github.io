@@ -210,3 +210,14 @@ h3 {
     margin: 1.5rem 0 1rem;
     letter-spacing: 0.02em;
 }
+
+#secondLayout #callout1,
+#secondLayout #callout2,
+#secondLayout #callout3,
+#secondLayout #callout4 {
+    grid-column: 2 / 6;   /
+    text-align: center;   
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
