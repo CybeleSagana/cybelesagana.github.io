@@ -211,16 +211,6 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-#secondLayout #callout1,
-#secondLayout #callout2,
-#secondLayout #callout3,
-#secondLayout #callout4 {
-    grid-column: 3;   /
-    text-align: center;   
-    font-style: left;
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-}
 
 #secondLayout p.callout {
     grid-column: auto;     
