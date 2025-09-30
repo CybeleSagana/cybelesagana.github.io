@@ -23,6 +23,7 @@
 </head>
 <h1>Log 3: CSS Media Queries</h1>
 <hr>
+
 <body>
     <section>
         <h2>How does a CSS media query work, and why is it useful?</h2>
@@ -31,7 +32,7 @@
             can show one layout, but if they open it on a phone, the site can rearrange itself so everything is easier
             to read and use. Media queries check things like screen size, orientation, or even whether someone prefers
             dark mode, and then apply special styles based on those conditions.</p>
-<br>
+        <br>
         <p>This is useful because it makes a website responsive, which means the layout adapts to different screens
             instead of staying stuck in one rigid design. That way the same site feels comfortable and easy to use
             whether it is on a phone, tablet, or desktop. Media queries give developers the power to create sites that
@@ -40,7 +41,47 @@
     <section>
         <h2>What "media features" are supported by media queries — such as "orientation" or "max-width" — and what do
             they do? Pick any 4 to explain.</h2>
-        <p></p>
+        <br>
+        <ol>
+            <li>
+                <h3>Width</h3>
+                <p>This is probably the most common media feature and the one people use the most when making responsive
+                    designs. Width checks how wide the screen or browser window is. You can set it so that if the screen
+                    is less than a certain number of pixels (like 600px), your site looks one way, and if it is wider,
+                    it looks another way. This is how websites can switch from a single-column layout on a phone to a
+                    multi-column layout on a laptop. Width is powerful because it helps your site adapt to the wide
+                    range of devices people use every day.</p>
+            </li>
+            <li>
+                <h3>Orientation</h3>
+                <p>Orientation is just about the direction of the screen. Portrait means the screen is taller than it is
+                    wide, like when you hold your phone straight up and down. Landscape means the screen is wider than
+                    it is tall, like when you turn your phone sideways or when you are on a laptop. The reason this
+                    matters is because a design that looks nice in portrait might look squished or awkward in landscape,
+                    and vice versa. With media queries, you can tell your site to show things differently depending on
+                    the orientation. For example, you could show a tall picture in portrait and switch to a wide picture
+                    in landscape so it always looks good.</p>
+            </li>
+            <li>
+                <h3>Pointer</h3>
+                <p>The pointer feature checks what kind of input device the user has. A mouse or trackpad is called
+                    “fine” because it can move very precisely, which makes it easy to click small buttons. A
+                    touchscreen, on the other hand, is called “coarse” because fingers need bigger tap areas to work
+                    comfortably. There is also “none,” which means no pointer at all, like someone using a keyboard or
+                    voice commands. This feature is useful because it lets you design for different ways people interact
+                    with your site. For example, you could create larger clickable areas for touchscreen users so it
+                    feels easier to use.</p>
+            </li>
+            <li>
+                <h3>Resolution</h3>
+                <p>Resolution is all about how sharp and detailed the screen is. Some devices, especially modern
+                    smartphones, have really high-resolution screens that can show images in a lot of detail. Other
+                    devices might not be as sharp. With this feature, you can serve higher-quality images or tweak font
+                    sizes so that your site looks clear and readable on every device. This helps make sure that your
+                    design does not look blurry or stretched on high-resolution screens while still performing well on
+                    older or less powerful devices.</p>
+            </li>
+        </ol>
     </section>
 </body>
 
