@@ -186,7 +186,6 @@ body {
 /* ===========================
   Bg
 =========================== */
-@media (max-width: 700px) {
 body {
   font-family: 'Times New Roman', Times, serif;
   color: #4b4b4b;
@@ -201,4 +200,10 @@ body {
   background-color: rgba(255, 225, 225, 0.6); 
   background-blend-mode: lighten; 
 }
-
+@media (max-width: 700px) {
+  .card img {
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
+  }
+}
