@@ -10,8 +10,8 @@ This helped me experiment but not be afraid of affecting my work here.
    General Styles
 =========================== */
 body {
-  font-family: 'Times New Roman', Times, serif; /* professional font */
-  background-color:#FFE1E1; /* pastel pink page background */
+  font-family: 'Times New Roman', Times, serif; 
+  background-color:#FFE1E1; 
   color: #4b4b4b;
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ body {
   background-color: #FFE1E1;
   text-align: center;
   padding: 2.5rem 1rem;
-  border-bottom: 6px solid #90A17D; /* soft green border */
+  border-bottom: 6px solid #90A17D; 
   border-radius: 0 0 30px 30px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
@@ -49,7 +49,7 @@ body {
   max-width: 850px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #ffffff; /* white card */
+  background-color: #ffffff; 
   border-radius: 25px;
   border: 2px solid #90A17D;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
@@ -57,14 +57,14 @@ body {
 }
 
 .title-box {
-  background-color: #FFE1E1; /* pink behind title */
+  background-color: #FFE1E1; 
   padding: 1rem 0;
   margin-bottom: 1rem;
   border-radius: 15px;
 }
 
 .title-box h1 {
-  font-family: 'Georgia', serif; /* different font for title */
+  font-family: 'Georgia', serif;
   font-size: 3rem;
   color: #ffffff;
   margin: 0;
@@ -87,7 +87,7 @@ body {
    Cards for Info & Photos
 =========================== */
 .card {
-  background-color: #EEEEEE; /* light gray card */
+  background-color: #EEEEEE; 
   max-width: 850px;
   margin: 1.5rem auto;
   padding: 2rem;
@@ -135,8 +135,8 @@ body {
 .site-footer {
   text-align: center;
   padding: 2rem;
-  background-color: #ffffff; /* changed to white */
-  border-top: 6px solid #90A17D; /* green accent */
+  background-color: #ffffff; 
+  border-top: 6px solid #90A17D; 
   color: #4b4b4b;
   border-radius: 30px 30px 0 0;
   margin-top: 1rem;
@@ -145,8 +145,7 @@ body {
 
 .site-footer p {
   font-weight: bold;
-  font-size: 2rem; /* larger title */
-  margin-bottom: 1rem;
+  font-size: 2rem; 
 }
 
 .site-footer ul {
@@ -190,8 +189,6 @@ body {
   color: #4b4b4b;
   margin: 0;
   padding: 0;
-  
-  /* background image */
   background-image: url(bg-for-website.jpg);
   background-size: cover;  
   background-repeat: no-repeat;
