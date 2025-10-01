@@ -193,12 +193,10 @@ body {
   padding: 0;
   
   /* background image */
-  background-image: url(https://i.pinimg.com/1200x/2a/61/a3/2a61a398d32e7a4a6e19d4dd524e5546.jpg')
+  background-image: url(bg for website.jpg);
   background-size: cover;  
   background-repeat: no-repeat;
   background-position: center;
-  
-  /* optional: make it faded */
   background-color: rgba(255, 225, 225, 0.6); 
   background-blend-mode: lighten; 
 }
