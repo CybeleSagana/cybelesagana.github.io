@@ -194,12 +194,12 @@ body {
   
   /* background image */
   background-image: url(https://i.pinimg.com/1200x/2a/61/a3/2a61a398d32e7a4a6e19d4dd524e5546.jpg')
-  background-size: cover;  /* makes the image cover the whole page */
+  background-size: cover;  
   background-repeat: no-repeat;
   background-position: center;
   
   /* optional: make it faded */
-  background-color: rgba(255, 225, 225, 0.6); /* pastel pink with 60% opacity overlay */
-  background-blend-mode: lighten; /* blends the color with the image */
+  background-color: rgba(255, 225, 225, 0.6); 
+  background-blend-mode: lighten; 
 }
 
