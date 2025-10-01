@@ -139,13 +139,13 @@ body {
   border-top: 6px solid #90A17D; /* green accent */
   color: #4b4b4b;
   border-radius: 30px 30px 0 0;
-  margin-top: 2rem;
+  margin-top: 1rem;
   box-shadow: 0 -6px 12px rgba(0,0,0,0.05);
 }
 
 .site-footer p {
   font-weight: bold;
-  font-size: 1.8rem; /* larger title */
+  font-size: 2rem; /* larger title */
   margin-bottom: 1rem;
 }
 
@@ -181,3 +181,25 @@ body {
     margin: 1rem auto;
   }
 }
+
+/* ===========================
+  Bg
+=========================== */
+@media (max-width: 700px) {
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: #4b4b4b;
+  margin: 0;
+  padding: 0;
+  
+  /* background image */
+  background-image: url(https://i.pinimg.com/1200x/2a/61/a3/2a61a398d32e7a4a6e19d4dd524e5546.jpg')
+  background-size: cover;  /* makes the image cover the whole page */
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  /* optional: make it faded */
+  background-color: rgba(255, 225, 225, 0.6); /* pastel pink with 60% opacity overlay */
+  background-blend-mode: lighten; /* blends the color with the image */
+}
+
