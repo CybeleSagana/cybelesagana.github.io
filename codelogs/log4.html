@@ -35,22 +35,37 @@
     <br>
     <section>
         <h2>How does CSS accept color as a value? Provide examples of colors in these styles:</h2>
-            <ul>
-                <strong><li>Named</li></strong>
-                <p>These are simple color names that CSS already recognizes, such as red, blue, green, or coral.
-                    Example: color: red;</p>
-                <strong><li>Hexadecimal</li></strong>
-                <p>These use a “#” followed by numbers and letters that represent the red, green, and blue values of a
-                    color.
-                    Example: background-color: #ff0000; (red)</p>
-                <strong><li>RGB</li></strong>
-                <p>This format mixes red, green, and blue values, each between 0 and 255.
-                    Example: border-color: rgb(255, 0, 0); (red)</p>
-                <strong><li>HSL</li></strong>
-                <p>This stands for hue, saturation, and lightness, which define color based on its position on the color
-                    wheel.
-                    Example: color: hsl(360, 50%, 50%); (dark red)</p>
-            </ul>
+        <ul>
+            <strong>
+                <li>Named</li>
+            </strong>
+            <p>These are simple, predefined names that CSS already recognizes. Examples include red, blue, green, coral,
+                and many others. Named colors are easy to remember and use, making them helpful for basic designs or
+                when you want to quickly apply a common color without needing to know its exact numeric values. For
+                example, writing color: red; will change the text to red instantly.</p>
+            <strong>
+                <li>Hexadecimal</li>
+            </strong>
+            <p>Hex colors use a # followed by six numbers or letters, which represent the red, green, and blue
+                components of the color. Each pair of characters can range from 00 to FF and determines how much of that
+                color is present. Hex codes give designers more precise control over colors and allow for a wider range
+                of shades than named colors. Example: background-color: #ff0000; produces a bright red background.</p>
+            <strong>
+                <li>RGB</li>
+            </strong>
+            <p>RGB stands for Red, Green, and Blue, the three primary colors of light. You can set each color component
+                with a number from 0 to 255, and CSS will mix them to create the final color. RGB allows for precise
+                customization and is often easier to adjust than hex codes when experimenting with color. Example:
+                border-color: rgb(255, 0, 0); will create a bright red border.</p>
+            <strong>
+                <li>HSL</li>
+            </strong>
+            <p>HSL stands for Hue, Saturation, and Lightness. Hue represents the color on a 360-degree color wheel (0 or
+                360 is red, 120 is green, 240 is blue). Saturation determines how intense the color is, from 0% (gray)
+                to 100% (full color), and Lightness controls how dark or light the color appears. HSL is very intuitive
+                because it lets designers think about colors in terms of shades and intensity. Example: color: hsl(360,
+                50%, 50%); produces a /dark red text color.</p>
+        </ul>
     </section>
 
 </body>
