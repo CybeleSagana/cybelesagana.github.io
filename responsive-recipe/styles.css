@@ -60,12 +60,13 @@ body {
     padding: 2rem;
 }
 
-.instructions .visuals img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-}
 
+.visuals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
 .placeholder {
   background-color: #ddd;
   border: 2px dashed #bbb;
