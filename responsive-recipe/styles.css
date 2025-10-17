@@ -87,7 +87,7 @@ body {
   align-items: center;
 }
 
-/* --- Circle Placeholders --- */
+/* --- Circle Placeholders Section --- */
 .ingredient-circles {
   display: flex;
   flex-direction: column;
