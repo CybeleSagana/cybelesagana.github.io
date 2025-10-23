@@ -12,7 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
   navItems.forEach(item => {
     item.addEventListener("click", e => {
       const parent = e.target.parentElement;
+    const submenu = parent.querySelector("ul"); // <-- check for submenu
+
+    if (submenu) {
+      e.preventDefault(); // only prevent navigation if there’s a submenu
       parent.classList.toggle("clicked");
-    });
+    }
   });
 });
