@@ -71,7 +71,7 @@ nav > ul > li > a {
   height: 100%;
   padding: 0.5rem;
   text-decoration: none;
-  color: var(--nav-text-color);
+  color: black;
   font-weight: 600;
 }
 
@@ -108,7 +108,7 @@ nav > ul > li > ul > li:hover {
 }
 
 nav > ul > li > ul > li:hover a {
-  color: var(--nav-hover-text-color);
+  color: black;
 }
 
 /* --- Media Query: Landscape/Desktop --- */
