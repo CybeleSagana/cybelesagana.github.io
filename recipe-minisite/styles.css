@@ -243,14 +243,14 @@ footer button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .nav-logo {
   font-family: "Georgia", serif;
   font-size: 1.8rem;
-  color: #4b2e05;
+  color: #4a3c2a;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -282,7 +282,7 @@ footer button:hover {
 }
 
 .nav-menu li a:hover {
-  color: #b46e33;
+  color: #b37b4c;
 }
 
 /* Dropdowns */
@@ -329,7 +329,7 @@ footer button:hover {
   height: 3px;
   width: 25px;
   background: #4b2e05;
-  margin: 4px 0;
+  margin: 3px 0;
   transition: 0.3s;
 }
 
