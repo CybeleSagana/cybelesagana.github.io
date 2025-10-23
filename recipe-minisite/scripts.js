@@ -1,4 +1,3 @@
-// Responsive navigation menu toggle
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.querySelector("nav");
   const burger = document.getElementById("navBurger");
@@ -7,16 +6,17 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.toggle("clicked");
   });
 
-  const navItems = document.querySelectorAll("nav > ul > li > a");
+  const submenuParents = document.querySelectorAll("nav > ul > li"); //ASKED CHATGPT ABT THIS
 
-  navItems.forEach(item => {
-    item.addEventListener("click", e => {
-      const parent = e.target.parentElement;
-    const submenu = parent.querySelector("ul"); // <-- check for submenu
+  submenuParents.forEach(parent => {
+    const link = parent.querySelector("a");
+    const submenu = parent.querySelector("ul");
 
     if (submenu) {
-      e.preventDefault(); // only prevent navigation if there’s a submenu
-      parent.classList.toggle("clicked");
+      link.addEventListener("click", e => {
+        e.preventDefault(); // stop navigation if it's just a toggle
+        parent.classList.toggle("clicked");
+      });
     }
   });
 });
