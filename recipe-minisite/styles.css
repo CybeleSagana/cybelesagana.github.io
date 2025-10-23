@@ -1,9 +1,9 @@
 /* --- Root Variables --- */
 :root {
   --nav-height: 3rem;
-  --nav-bkgd-color: gray;
-  --nav-text-color: white;
-  --nav-hover-bkgd-color: lightgray;
+  --nav-bkgd-color: #f2d0a7;
+  --nav-text-color: rgb(28, 27, 27);
+  --nav-hover-bkgd-color:  #f2d0a7;
   --nav-hover-text-color: black;
 }
 
@@ -155,11 +155,11 @@ nav > ul > li > ul > li:hover a {
   }
 }
 
-/* --- Main Section (Cute Theme) --- */
+/* --- Main Section --- */
 body {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-  padding: var(--nav-height) 0 0 0; /* keep nav offset */
+  padding: var(--nav-height) 0 0 0; 
   line-height: 1.6;
   color: #3b2f2f;
   background-color: #fff8f0; 
