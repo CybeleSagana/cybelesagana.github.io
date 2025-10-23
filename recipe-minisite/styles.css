@@ -228,112 +228,176 @@ footer button:hover {
   }
 }
 
-nav {
+/* Nav Menu */
+.navbar {
   background: linear-gradient(90deg, #f9e4c8, #f2d0a7);
   border-bottom: 3px solid #d18b47;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 0.5rem 0;
-  font-family: "Georgia", serif;
 }
 
-/* nav style */
-nav ul {
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-family: "Georgia", serif;
+  font-size: 1.8rem;
+  color: #4a3c2a;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-logo:hover {
+  color: #b46e33;
+}
+
+.nav-menu {
   list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-nav ul > li {
-  display: inline-block;
+.nav-menu li {
   position: relative;
 }
 
-/* main nav links */
-nav ul > li > a {
-  display: block;
-  padding: 0.75rem 1.2rem;
+.nav-menu li a {
   text-decoration: none;
   color: #4b2e05;
   font-weight: 600;
-  transition: all 0.3s ease;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
-nav ul > li > a:hover {
-  background-color: #f2d0a7;
-  color: #b46e33;
-  border-radius: 6px;
+.nav-menu li a:hover {
+  color: #b37b4c;
 }
 
-/* submenu styling */
-nav ul li ul {
+/* Dropdowns */
+.dropdown-menu {
   display: none;
   position: absolute;
   background: #fff8f0;
   border: 1px solid #d18b47;
-  border-radius: 10px;
+  border-radius: 8px;
+  list-style: none;
+  padding: 0.5rem 0;
   min-width: 180px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  top: 2rem;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-nav ul li:hover ul {
-  display: block;
-}
-
-nav ul li ul li a {
-  padding: 0.6rem 1rem;
-  color: #4b2e05;
-  display: block;
-}
-
-nav ul li ul li a:hover {
-  background: #f9e4c8;
-  color: #b46e33;
-}
-
-/* Mobile menu icon (the burger) */
-#navBurger {
-  display: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-  color: #4b2e05;
+.dropdown-menu li {
   padding: 0.5rem 1rem;
 }
 
-/* === Responsive Styles === */
+.dropdown-menu li a {
+  color: #4b2e05;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f9e4c8;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Mobile Menu Button */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background: #4b2e05;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+/* Responsive Nav */
 @media (max-width: 768px) {
-  nav ul {
+  .nav-menu {
     display: none;
     flex-direction: column;
-    background: #fff8f0;
     width: 100%;
+    background: #fff8f0;
+    text-align: center;
+    padding: 1rem 0;
   }
 
-  nav ul.active {
+  .nav-menu.active {
     display: flex;
   }
 
-  nav ul li {
-    display: block;
+  .nav-toggle {
+    display: flex;
   }
 
-  #navBurger {
-    display: block;
-    text-align: right;
-    margin-right: 1rem;
-  }
-
-  nav ul li ul {
+  .dropdown-menu {
     position: static;
     box-shadow: none;
-    border: none;
   }
+}
 
-  nav ul li ul li a {
-    padding-left: 2rem;
-  }
+
+.home-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #f2d0a7, #f9e4c8);
+  color: #4b2e05;
+}
+
+.hero-img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.recipe-card {
+  background: #fff7ed;
+  border: 2px solid #d18b47;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.recipe-card h2 a {
+  text-decoration: none;
+  color: #4b2e05;
+}
+
+.recipe-card h2 a:hover {
+  color: #b46e33;
 }
