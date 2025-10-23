@@ -424,3 +424,25 @@ footer button:hover {
   }
 }
 
+/* --- Submenu Items --- */
+nav > ul > li > ul > li {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+nav > ul > li > ul > li:hover {
+  background-color: var(--nav-hover-bkgd-color);
+}
+
+nav > ul > li > ul > li:hover a {
+  color: black;
+}
+
+/* --- Attempt to fix submenu link color and remove underline --- */
+nav ul li ul li a {
+  color: black;          
+  text-decoration: none;  
+}
+
+nav ul li ul li a:hover {
+  color: black;           
+}
