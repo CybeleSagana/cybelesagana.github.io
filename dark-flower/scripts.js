@@ -1,15 +1,10 @@
-// set up DOM loading event listener 
 document.addEventListener("DOMContentLoaded", function () {
+  
+  const darkModeButton = document.querySelector("#toggleDarkMode");
 
-    // find the dark mode button
-    let darkModeButton = document.querySelector("#toggleDarkMode");
 
-    // add a click function and handler
-    darkModeButton.addEventListener("click", function (e) {
-        
-        // when clicked, add class to the body called "darkMode"
-        document.body.classList.toggle("darkMode");
-        
-    });
-
+  darkModeButton.addEventListener("click", function () {
+    
+    document.body.classList.toggle("darkMode");
+  });
 });
