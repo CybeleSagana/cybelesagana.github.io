@@ -246,7 +246,6 @@ body.darkMode {
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-/* Header */
 body.darkMode .site-header {
   background-color: #444;
   border-bottom: 6px solid #ffb6c1;
@@ -261,8 +260,24 @@ body.darkMode .site-header .subtitle {
   color: #ffc2d1;
 }
 
-/* Cards */
-body.darkMode .top-card,
+body.darkMode .top-card {
+  background-color: #3d3d3d;
+  color: #ffc2d1;
+}
+
+body.darkMode .top-card .subtitle {
+  font-size: 1.2rem;
+  color: #ffc2d1;
+  background-color: transparent; /* removed the gray background */
+  margin-bottom: 1.5rem;
+}
+
+.top-card .names p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #ffd6e0;
+}
+
 body.darkMode .card {
   background-color: #3d3d3d;
   border: 2px solid #ffb6c1;
@@ -271,13 +286,11 @@ body.darkMode .card {
   transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-/* Titles inside cards */
 body.darkMode .card h2,
 body.darkMode .card h3 {
   color: #ffb6c1;
 }
 
-/* Footer */
 body.darkMode .site-footer {
   background-color: #3d3d3d;
   border-top: 6px solid #ffb6c1;
@@ -288,7 +301,6 @@ body.darkMode .site-footer p {
   color: #ffd6e0;
 }
 
-/* Links */
 body.darkMode .site-footer a {
   color: #ffb6c1;
 }
@@ -297,7 +309,6 @@ body.darkMode .site-footer a:hover {
   color: #ffcce0;
 }
 
-/* Button in Dark Mode */
 body.darkMode #toggleDarkMode {
   background: linear-gradient(135deg, #ffb6c1, #ff99aa);
   border-color: #ffb6c1;
