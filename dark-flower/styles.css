@@ -203,20 +203,27 @@ body {
   }
 }
 
+
+
+
+
+
+
+
+
 /* ===========================
 Dark Mode Toggle Button
 =========================== */
 #toggleDarkMode {
   background: linear-gradient(135deg, #ffb6c1, #ff99aa); 
   color: #fff;
-  border: 2px solid #90A17D;
-  border-radius: 30px;
-  padding: 10px 20px;
+  border: 2px solid #ffb6c1;
+  border-radius: 40px;
+  padding: 12px 25px;
   font-size: 1rem;
-  font-family: 'Times New Roman', serif;
+  font-family: 'Georgia', serif;
   font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(144, 161, 125, 0.3);
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
   transition: all 0.3s ease;
   position: fixed;
   top: 20px;
@@ -224,42 +231,76 @@ Dark Mode Toggle Button
 }
 
 #toggleDarkMode:hover {
-  background: linear-gradient(135deg, #ffc1cc, #ff8fab);
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(255, 182, 193, 0.5);
+  background: linear-gradient(135deg, #ffc2d1, #ff99bb);
+  transform: scale(1.08);
+  box-shadow: 0 6px 14px rgba(255, 182, 193, 0.6);
 }
 
 /* ===========================
- Dark Mode Styling
+Dark Mode Styling
 =========================== */
 body.darkMode {
-  background-color: #3a3a3a; 
-  color: #fce4ec; 
+  background-color: #2f2f2f; 
+  color: #ffe4ec;
   background-image: none; 
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
+/* Header */
 body.darkMode .site-header {
-  background-color: #5a5a5a;
-  border-bottom-color: #b6d7a8; 
+  background-color: #444;
+  border-bottom: 6px solid #ffb6c1;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
 }
 
 body.darkMode .site-header h1 {
-  color: #ffd6e0; 
+  color: #ffd6e0;
 }
 
+body.darkMode .site-header .subtitle {
+  color: #ffc2d1;
+}
+
+/* Cards */
 body.darkMode .top-card,
-body.darkMode .card,
-body.darkMode .site-footer {
-  background-color: #4b4b4b;
-  border-color: #b6d7a8;
+body.darkMode .card {
+  background-color: #3d3d3d;
+  border: 2px solid #ffb6c1;
   color: #ffeef2;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-body.darkMode a {
+/* Titles inside cards */
+body.darkMode .card h2,
+body.darkMode .card h3 {
   color: #ffb6c1;
 }
 
-body.darkMode a:hover {
+/* Footer */
+body.darkMode .site-footer {
+  background-color: #3d3d3d;
+  border-top: 6px solid #ffb6c1;
+  color: #ffeef2;
+}
+
+body.darkMode .site-footer p {
+  color: #ffd6e0;
+}
+
+/* Links */
+body.darkMode .site-footer a {
+  color: #ffb6c1;
+}
+
+body.darkMode .site-footer a:hover {
   color: #ffcce0;
+}
+
+/* Button in Dark Mode */
+body.darkMode #toggleDarkMode {
+  background: linear-gradient(135deg, #ffb6c1, #ff99aa);
+  border-color: #ffb6c1;
+  color: white;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.6);
 }
