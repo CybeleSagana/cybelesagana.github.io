@@ -272,7 +272,7 @@ body.darkMode .top-card .subtitle {
   margin-bottom: 1.5rem;
 }
 
-.top-card .names p {
+body.darkMode .top-card .names p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
   color: #ffd6e0;
