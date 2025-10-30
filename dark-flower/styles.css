@@ -211,8 +211,17 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
 /* ===========================
-Dark Mode Toggle Button
+Dark Mode Button
 =========================== */
 #toggleDarkMode {
   background: linear-gradient(135deg, #ffb6c1, #ff99aa); 
@@ -268,7 +277,7 @@ body.darkMode .top-card {
 body.darkMode .top-card .subtitle {
   font-size: 1.2rem;
   color: #ffc2d1;
-  background-color: transparent; /* removed the gray background */
+  background-color: transparent; 
   margin-bottom: 1.5rem;
 }
 
