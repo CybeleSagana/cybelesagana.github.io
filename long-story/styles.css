@@ -19,7 +19,7 @@ h1, h2, p {
 main {
     height: 500vh; /* 5 sections */
     background-image: url("/long-story/2nd\ attempt.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
