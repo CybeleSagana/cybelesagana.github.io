@@ -34,7 +34,7 @@ section > .content {
     width: 42vw;
     top: 25vh;
     left: 5vw;
-    color: #fff; 
+    color: #f67280; 
     text-shadow: 1px 1px 6px rgba(0,0,0,0.3); 
 }
 
@@ -49,7 +49,7 @@ section > .instructions {
     bottom: 2vh;
     width: 42vw;
     left: 5vw;
-    font-size: 1rem;
+    font-size: 1.59rem;
     color: #f7bbd7; 
     font-family: "Pacifico", cursive; 
 }
@@ -58,14 +58,14 @@ section > .instructions {
     font-size: 2rem;
     font-family: "Quicksand", sans-serif;
     text-transform: uppercase;
-    color: #ffc9db; 
+    color: #f67280; 
 }
 
 #section1 h1 {
     font-size: 6rem;
     line-height: 5.5rem;
     font-family: 'Dancing Script', cursive;
-    color: #ffb6c1; 
+    color: #f67280; 
     margin-top: 0.5rem;
 }
 
