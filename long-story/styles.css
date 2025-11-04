@@ -50,7 +50,7 @@ section > .instructions {
     width: 42vw;
     left: 5vw;
     font-size: 1rem;
-    color: #ffe3f0; 
+    color: #f7bbd7; 
     font-family: "Pacifico", cursive; 
 }
 
@@ -58,7 +58,7 @@ section > .instructions {
     font-size: 2rem;
     font-family: "Quicksand", sans-serif;
     text-transform: uppercase;
-    color: #fff0f5; 
+    color: #ffc9db; 
 }
 
 #section1 h1 {
