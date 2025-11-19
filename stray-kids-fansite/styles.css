@@ -282,3 +282,32 @@ footer {
   font-size: 18px;
   color: #ff4d4d;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;  /* adjusts to bigger screens */
+  margin: auto;
+  padding: 20px;
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .sidebar {
+    display: none; /* example */
+  }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+}
