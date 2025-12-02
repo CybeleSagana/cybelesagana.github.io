@@ -310,3 +310,33 @@ img {
     font-size: 18px;
   }
 }
+
+/* MVs Links */
+.mv-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.mv-list li {
+  margin-bottom: 12px;
+}
+
+.mv-list a {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: black;
+  color: #ff2a2a; /* SKZ red */
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid #ff2a2a;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.mv-list a:hover {
+  background-color: #ff2a2a;
+  color: black;
+  transform: translateY(-2px);
+}
