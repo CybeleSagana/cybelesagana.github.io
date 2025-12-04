@@ -523,3 +523,105 @@ body, p, li, a, span, div {
     align-items: center;
   }
 }
+
+/* -------------------------------------------- */
+/* All devices I can think of... */
+/* -------------------------------------------- */
+@media (max-width: 375px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .nav-menu h1 {
+    font-size: 40px;
+  }
+
+  .nav-menu ul li {
+    font-size: 20px;
+  }
+
+  .hero {
+    padding-left: 20px;
+  }
+
+  .stay-logo {
+    font-size: 2rem;
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-left: 30px;
+  }
+
+  .nav-menu h1 {
+    font-size: 48px;
+  }
+
+  .nav-menu ul li {
+    font-size: 22px;
+  }
+
+  .page-container {
+    padding: 60px 20px;
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .member-card img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .small-header h1 {
+    font-size: 48px;
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .page-container {
+    padding: 70px 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero {
+    padding-left: 50px;
+  }
+
+  .nav-menu h1 {
+    font-size: 60px;
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .members-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .members-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
