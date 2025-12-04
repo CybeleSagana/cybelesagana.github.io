@@ -625,3 +625,62 @@ body, p, li, a, span, div {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+.fanart-intro {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.fanart-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.fanart-grid img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #8b0000;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  transition: 0.3s ease;
+}
+
+.fanart-grid img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.5);
+}
+
+.fanart-disclaimer {
+  margin-top: 25px;
+  font-size: 0.95rem;
+  color: #ffbcbc;
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .fanart-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .fanart-grid img {
+    height: 160px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .fanart-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .fanart-grid img {
+    height: 200px;
+  }
+}
