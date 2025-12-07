@@ -251,7 +251,6 @@ button:hover {
 .about-section ul,
 .section ul {
   padding-left: 25px;
-  list-style: none;
 }
 
 /* -------------------------------- */
@@ -344,6 +343,7 @@ button:hover {
   justify-content: center;
   gap: 20px;
   padding: 0;
+  list-style: none;
   margin-top: 20px;
 }
 
