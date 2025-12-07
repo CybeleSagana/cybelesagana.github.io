@@ -412,6 +412,46 @@ button:hover {
 }
 
 /* -------------------------------- */
+/* CONTACT PAGE */
+/* -------------------------------- */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #ff6b6b;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 2px solid #8b0000;
+  background: #1a0a0a;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff3a3a;
+  box-shadow: 0 0 10px rgba(255,0,0,0.3);
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background: #b30000;
+}
+
+
+/* -------------------------------- */
 /* FOOTER */
 /* -------------------------------- */
 footer {
