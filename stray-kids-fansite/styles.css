@@ -140,6 +140,8 @@ button:hover {
   font-weight: 800;
   margin-bottom: 30px;
   letter-spacing: 4px;
+  text-align:center;
+  width:100%;
 }
 
 .nav-menu ul {
@@ -530,4 +532,11 @@ footer {
 
 @media (min-width: 1280px) {
   .members-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (max-width:600px){
+  .hero {
+    padding-left: 0;
+    text-align: center;
+  }
 }
