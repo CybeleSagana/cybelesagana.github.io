@@ -251,7 +251,7 @@ button:hover {
 .about-section ul,
 .section ul {
   padding-left: 25px;
-  list-style: disc;
+  list-style: none;
 }
 
 /* -------------------------------- */
