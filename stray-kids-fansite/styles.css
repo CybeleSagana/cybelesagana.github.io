@@ -64,7 +64,7 @@ button:hover {
 /* -------------------------------- */
 .page-container {
   padding: 100px 40px;
-  max-width: 1100px;
+  max-width: none;
   margin: auto;
 }
 
