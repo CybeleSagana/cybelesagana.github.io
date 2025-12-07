@@ -64,13 +64,13 @@ button:hover {
 /* -------------------------------- */
 .page-container {
   padding: 100px 40px;
-  max-width: none;
+  max-width: 1200px;
   margin: auto;
 }
 
 .container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 20px;
 }
 
