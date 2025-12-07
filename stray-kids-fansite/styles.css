@@ -450,6 +450,27 @@ button:hover {
   background: #b30000;
 }
 
+/* -------------------------------- */
+/* TABLE */
+/* -------------------------------- */
+.tour-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tour-table th, .tour-table td {
+  border: 2px solid #8b0000;
+  padding: 10px;
+  text-align: center;
+  background: #1a0a0a;
+}
+
+.tour-table th {
+  background: #b30000;
+  color: white;
+  font-weight: 700;
+}
 
 /* -------------------------------- */
 /* FOOTER */
